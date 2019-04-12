@@ -12,16 +12,16 @@ public class MiEjercicio {
 
         Scanner scan = new Scanner(System.in);
 
-        String nombres,
-                apellidos,
-                ciudad,
-                pais;
+        String nombres;
+        String apellidos;
+        String ciudad;
+        String pais;
 
         int edad;
 
-        double nota1,
-                nota2,
-                promedio;
+        double nota1;
+        double nota2;
+        double promedio;
 
         System.out.println("Ingrese sus nombres: ");
         nombres = scan.nextLine();
@@ -31,7 +31,7 @@ public class MiEjercicio {
 
         System.out.println("Ingrese su edad: ");
         edad = scan.nextInt();
-        scan.nextLine();
+        scan.nextLine(); // Sirve para limpiar el buffer
 
         System.out.println("Ingrese la ciudad: ");
         ciudad = scan.nextLine();
