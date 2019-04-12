@@ -11,9 +11,9 @@ public class EjemplosClase23 {
 
         Scanner scan = new Scanner(System.in);
 
-        String nombre,
-                apellido,
-                ciudad;
+        String nombre;
+        String apellido;
+        String ciudad;
 
         int edad;
 
