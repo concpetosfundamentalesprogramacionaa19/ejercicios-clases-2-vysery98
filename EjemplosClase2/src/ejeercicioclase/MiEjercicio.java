@@ -31,7 +31,7 @@ public class MiEjercicio {
 
         System.out.println("Ingrese su edad: ");
         edad = scan.nextInt();
-        scan.nextLine(); // Sirve para limpiar el buffer
+        scan.nextLine(); // Limpieza del buffer de entrada de datos
 
         System.out.println("Ingrese la ciudad: ");
         ciudad = scan.nextLine();
