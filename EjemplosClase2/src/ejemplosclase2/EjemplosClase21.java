@@ -11,8 +11,8 @@ public class EjemplosClase21 {
 
         Scanner scan = new Scanner(System.in);
 
-        String nombre,
-                apellido;
+        String nombre;
+        String apellido;
 
         System.out.println("Por favor, ingresar sus nombres: ");
         nombre = scan.nextLine();
